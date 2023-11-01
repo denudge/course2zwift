@@ -241,6 +241,7 @@ impl Display for Course {
         write!(f, "<workout_file>\n")?;
 
         self.write_header(f)?;
+        self.write_sections(f)?;
 
         write!(f, "</workout_file>\n")?;
         Ok(())
@@ -260,8 +261,6 @@ impl Course {
 
         write!(f, "\t<sportType>{}</sportType>\n", self.sport_type)?;
         write!(f, "\t<tags/>\n")?;
-
-        self.write_sections(f)?;
 
         Ok(())
     }
