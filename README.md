@@ -39,7 +39,16 @@ You can provide a CSV file like this table one:
 | 00:03:30 | 160   |              |
 | 00:04:30 |       | You're done! |
 
-### Hints
+The corresponding raw CSV file then looks as follows:
+```text
+"00:00:00",180,
+"00:01:30",,"Turn right"
+"00:02:00",210,"Up that hill"
+"00:03:30",160,
+"00:04:30",,"You're done!"
+```
+
+## Hints
 
 Be careful to use a rasterization size to match the granularity of your file,
 especially if you want to ride along with a pre-recorded video:
