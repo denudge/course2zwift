@@ -13,7 +13,7 @@ const DEFAULT_COURSE_TYPE: &str = "ride";
 const DEFAULT_AUTHOR: &str = "Mathias Lieber";
 const DEFAULT_TIME_MODE: &str = "time";
 
-/// Translate a CSV table to a
+/// CLI options
 #[derive(Parser)]
 struct CourseBuilder {
     /// course name
