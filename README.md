@@ -6,6 +6,10 @@ It allows you to create Zwift workouts based on table data
 with time, power and (optional) hint text snippets.
 You can scale it by time and power, to adapt to your own abilities.
 
+## Build
+
+It's a rust app. Use `cargo build` to build it.
+
 ## Usage
 
 ```bash
