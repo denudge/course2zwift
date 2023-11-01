@@ -8,7 +8,7 @@ You can scale it by time and power, to adapt to your own abilities.
 
 ## Build
 
-It's a rust app. Use `cargo build` to build it.
+It's a Rust app. Use `cargo build` to build it.
 
 ## Usage
 
